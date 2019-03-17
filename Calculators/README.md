@@ -1,6 +1,7 @@
 # Calculators
-Simple calculator and calculator of rational numbers
+Calculator works with floating point numbers.
 
-The first calculator works with floating point numbers.
+Calculator(Q) works with rational numbers.
 
-The second calculator works with rational numbers.
+NEW: Calculator(Q) version 2 - has improved performance and a beautify function which modifies negative numbers and now displays them correctly.
+ //source code -> Semester_2/Week4/Lecture/Solution.cpp
