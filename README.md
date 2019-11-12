@@ -1,2 +1,5 @@
 # My_Projects
-Applications done for fun / in free time.
+
+Exercises done for fun / in free time.
+
+Main sources: Project Euler, Codewars
