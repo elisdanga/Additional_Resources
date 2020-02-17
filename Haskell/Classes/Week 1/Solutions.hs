@@ -11,7 +11,7 @@ main = do
         --print (average 10 20)
         --print (average_doubles 10.5 20.8)
         --print (calcAverage 5 10) -- Notice how this prints 62 (not 62.5)
-        --print (calcAverage_doubles 5 10) -- The "fromIntegral" function converts an Integer or Int to a read number (Double, Rational).
+        --print (calcAverage_doubles 5 10)
         --print (fibRec 6)
         --print (fibRec 50) -- Using recursion, however, we cannot calculate so many value. Hence, now, we will mimick a loop! (Btw, if you go into a recursion, to stop the program, use Cntr + C from the keyboard).
         --print (fibIter 6)
@@ -49,10 +49,10 @@ average_doubles a b = (a + b) / 2 -- Cannot use "div" here!
 
 {- The prefix function "div" accepts only Int || Integer and returns Int || Integer.-}
 calcAverage :: Integer -> Integer -> Integer
-calcAverage a b = div ((a)^2 + (b)^2) 2 -- alternative: ((a)^2 + (b)^2) `div` 2
+calcAverage a b = div (a^2 + b^2) 2 -- alternative: (a^2 + b^2) `div` 2
 
 calcAverage_doubles :: Integer -> Integer -> Double
-calcAverage_doubles a b = ((fromIntegral(a))^2 + (fromIntegral(b))^2) / 2
+calcAverage_doubles a b = ((fromIntegral(a))^2 + (fromIntegral(b))^2) / 2  -- The "fromIntegral" function converts an Integer or Int to a read number (Double, Rational).
 
 {- We have the sequence 0, 1, 1, 2, 3, 5, 8 .. and the first number has the index of 0! So for n = 6 the result should be 8.-}
 fibRec :: Integer -> Integer 
