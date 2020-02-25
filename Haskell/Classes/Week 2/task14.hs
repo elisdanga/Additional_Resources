@@ -5,12 +5,14 @@ main = do
     print $ isPalindrome 12
     print $ isPalindrome 120
     print $ isPalindrome 12321
+    print $ isPalindrome 1221
     return()
 
 isPalindrome :: Integer -> Bool
 isPalindrome n = helper (toList n)
  where
      helper :: [Integer] -> Bool
+     helper [] = True
      helper [a] = True
      helper lst
       | tail lst == [] = True
