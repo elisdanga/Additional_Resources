@@ -15,4 +15,4 @@ If the n is prime then if we take all the numbers from that list
 -}
 
 isPrime :: Integer -> Bool
-isPrime n = length [x | x <- [2 .. n - 1], mod n x == 0] == 0
+isPrime n = length [x | x <- [1 .. n - 1], mod n x == 0] == 1
