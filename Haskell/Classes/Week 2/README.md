@@ -117,4 +117,4 @@ Note: There will always be only one integer that appears an odd number of times.
 Да се дефинира функция ​isPalindrome​, която проверява дали дадено число е палиндром.
 
 ## Task 15
-Да се дефинира функция ​allAfter, която връщта списък от целите числа между а и b (a <= b).
+Да се дефинира функция, която връщта списък от целите числа между а и b (a <= b).
