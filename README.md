@@ -1,5 +1,4 @@
-# My_Projects
+# Additional_Resourses
 
-Exercises done for fun / in free time.
-
-Main sources: Project Euler, Codewars.
+- C++ and Haskell exercises done for fun / in free time.
+- exercise repository for the Functional Programming Course Seminar.
