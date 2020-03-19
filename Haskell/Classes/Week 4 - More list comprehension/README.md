@@ -1,6 +1,6 @@
 # Tasks
 
-# Note: All lists are interpreted as lists of integers, unless stated otherwise.
+# Note: All lists are lists of whole numbers, unless stated otherwise.
 
 ## Task 1
 Define a function that checks whether a list is empty.
