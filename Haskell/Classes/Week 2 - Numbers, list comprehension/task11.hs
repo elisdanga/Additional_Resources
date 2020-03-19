@@ -14,5 +14,5 @@ If the n is prime then if we take all the numbers from that list
     and perform modulus division, none should be divisible.
 -}
 
-isPrime :: Integer -> Bool
-isPrime n = length [x | x <- [1 .. n - 1], mod n x == 0] == 1
+isPrime :: Int -> Bool
+isPrime x = if x < 2 then False else length [y | y <- [2 .. x - 1], mod x y == 0] == 0
