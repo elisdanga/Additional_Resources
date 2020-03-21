@@ -1,7 +1,3 @@
-# Additional help repository with exercises
-
-Part of the Functional Programming Course 2019/2020.
-
 # Algorithm for solving Haskell exercises
 
     1. Study Haskell syntax
