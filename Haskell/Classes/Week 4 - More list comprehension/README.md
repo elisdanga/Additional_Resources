@@ -1,6 +1,6 @@
 # Tasks
 
-# Note: All lists are lists of whole numbers, unless stated otherwise.
+# Note: All lists are interpreted as lists of integers, unless stated otherwise.
 
 ## Task 1
 Define a function that checks whether a list is empty.
@@ -15,18 +15,18 @@ Define a function that returns the first element of a list. Throw an error if th
 Define a function that removes the first element of a list. Throw an error if the list does not have elements.
 
 ## Task 5
-Define a function that removes the element "a" from the list "lst" by using a built-in for the first solution and with pattern matching for the second.
+Define a function that removes the element "a" from the list "lst" by using a built-in function for the first solution and with pattern matching for the second.
 
 ## Task 6
-Define a function that forms a list from the first n elements of the list "lst". Solve the exercise with pattern matching and with a built-in.
+Define a function that forms a list from the last k elements of the list "lst".
 
 Examples:
 
-    formList 5 [1, 2, 3, 4, 5, 6] -> [1, 2, 3, 4, 5]
-    formList 5 [1, 2, 3] -> [1, 2, 3]
+    formList 5 [1, 2, 3, 4, 5, 6] -> [6, 5, 4, 3, 2]
+    formList 5 [1, 2, 3] -> [3, 2, 1]
 
 ## Task 7
-Define a function that removes the first n elements from the list lst. Solve the exercise with pattern matching and with a built-in.
+Define a function that removes the first n elements from the list lst. Solve the exercise with pattern matching and with a built-in function.
 
 Examples:
 
@@ -37,7 +37,7 @@ Examples:
 Define a function that takes in a number and represents it with a list made up from its digits.
 
 ## Task 9
-Define a function that finds the minimum element(s) in a list and appends it to the front of a list.
+Define a function that finds the minimum element in a list and appends it to the front of a list.
 
 Example:
 
@@ -69,7 +69,7 @@ Example:
     toTuples [1, 2] [] -> [(1, 0), (2, 0)]
 
 ## Task 13
-Define a function that returns a list of booleans that state whether the first element of the tupple is the square root of the second (without calculating the square root!).
+Define a function that returns a list of booleans that state whether the first element of the tuple is the square root of the second (without calculating the square root!).
 
 Example:
 
@@ -126,7 +126,7 @@ Example:
     getVolumes [(5, 10), (5, 2), (2, 10), (2, 5)] -> [785.4, 157.08, 125.66, 62.83]
 
 ## Task 21
-Define a function that returns a list containing only elements bigger than n.
+Define a function that receives a list and a natural number and returns a list containing only the numbers bigger than n.
 
 ## Task 22
 Define a function that returns a tuple (x, y) where x is True if for every element in two lists a<sub>i</sub> = x + b<sub>i</sub>. Return the boolean and the x.
