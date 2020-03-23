@@ -5,7 +5,7 @@ main = do
     return ()
 
 findSum :: Int -> Int -> Int -> Int
-findSum a b n = sum [gen x | x <- [n - 1, n - 2 .. n - 3]]
+findSum a b n = if n < 3 then error "n must be greater than 3" else sum [gen x | x <- [n - 1, n - 2 .. n - 3]]
  where
      gen :: Int -> Int
      gen 0 = a + b

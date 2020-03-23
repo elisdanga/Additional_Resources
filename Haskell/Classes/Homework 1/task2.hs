@@ -1,5 +1,6 @@
 main :: IO()
 main = do
+    print $ isSquare 0 -- True
     print $ isSquare 1 -- True
     print $ isSquare 2 -- False
     print $ isSquare 4 -- True
@@ -9,4 +10,4 @@ main = do
     return ()
 
 isSquare :: Int -> Bool
-isSquare n = length [x | x <- [1 .. n], x * x == n] == 1
+isSquare n = length [x | x <- [0 .. n], x * x == n] == 1

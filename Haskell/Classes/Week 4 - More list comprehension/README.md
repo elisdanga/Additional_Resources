@@ -15,7 +15,7 @@ Define a function that returns the first element of a list. Throw an error if th
 Define a function that removes the first element of a list. Throw an error if the list does not have elements.
 
 ## Task 5
-Define a function that removes the element "a" from the list "lst" by using a built-in function for the first solution and with pattern matching for the second.
+Define a function that removes the element "a" from the list "lst". Solve the exercise with one line of code.
 
 ## Task 6
 Define a function that forms a list from the last k elements of the list "lst".
