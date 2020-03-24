@@ -1,7 +1,7 @@
 # Tasks
 
 ## Task 1
-Write a function that takes a two lists and combines them into a single, sorted list. Solve the task with one line of code.
+Write a function that takes two lists and combines them into a single, sorted list. Solve the task with one line of code.
 
 ## Task 2
 Write a function matchesFirst that checks whether all the elements from a list "lst" match the first n elements of another list "lst2"
@@ -14,7 +14,7 @@ Examples:
     matchesFirst [1, 2, 3] [3, 2, 1] -> False
 
 ## Task 3
-Write a lambda expression eqivalent to the following function: f x = 2 * x. By using map apply such a function partially to a list.
+Write a lambda expression equivalent to the following function: f x = 2 * x. By using the map function, apply such a function partially to a list.
 
 ## Task 4
 Define the function "difference f a b", that takes a unary function "f" and two real numbers. The function returns the difference f(b) - f(a).
@@ -40,7 +40,7 @@ Explanation:
 Define the functions:
  - mIdentity x, that returns the identity of x
  - myCompose f g, that returns the composition of f and g
- - myNegate, p that returns the compliment of (the negation of) a predicate p
+ - myNegate, p that returns the complement of (the negation of) a predicate p
   - myCurry f x, that returns a function that is the partial application of x over f
 
 Examples:
