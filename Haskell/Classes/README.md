@@ -1,6 +1,9 @@
-# Additional help repository with exercises
+# Repository with exercises for the Functional Programming Course 2019/2020
 
-Part of the Functional Programming Course 2019/2020.
+# Quizlets
+ - Part 3 (Data.List and pattern matching):https://quizlet.com/497664383/functional-programming-20192020-part-3-flash-cards/
+ - Part 2 (list comprehension): https://quizlet.com/488168003/functional-programming-20192020-part-2-flash-cards/?funnelUUID=b26e06c6-950c-4025-b8c4-ba95518658f3
+ - Part 1 (syntax): https://quizlet.com/486460048/functional-programming-20192020-part-1-flash-cards/ 
 
 # Algorithm for solving Haskell exercises
 
@@ -18,3 +21,8 @@ Part of the Functional Programming Course 2019/2020.
         b. What are the steps to go through?
         c. Do all examples work with that diagram?
     4. Transform the diagram into code.
+
+# Additional links
+ - Book (read until chapter 8 included):http://learnyouahaskell.com/chapters
+ - Library for working with lists (Data.List): https://hackage.haskell.org/package/base-4.12.0.0/docs/Data-List.html 
+ - Library for working with characters/digits (Data.Char): https://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Char.html 
