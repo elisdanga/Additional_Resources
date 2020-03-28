@@ -50,7 +50,7 @@ Examples:
     reverseOrdSuff 32567 -> 7
     reverseOrdSuff 32666 -> 6
     
-# Task 7 (not ready)
+# Task 7
 Write a function that sums the unique numbers in the sublists of a list n.
 
 Examples:
