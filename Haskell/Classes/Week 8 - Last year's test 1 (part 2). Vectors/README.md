@@ -68,7 +68,7 @@ Available products at the shop:
  - Water: 500ml for 0.50;
  - Soap: 250g for 4.50.
 
-## By using the solution to task 1 complete the tasks below.
+## By using the solution to task 7 complete the tasks below.
 
 # Task 8
 Define a function that returns the price of the inventory.
