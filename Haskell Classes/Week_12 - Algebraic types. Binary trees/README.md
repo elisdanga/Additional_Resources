@@ -3,7 +3,7 @@
 ## By using the "BTree" data type from last week, complete tasks 1 - 4.
 
 # Task 1
-If the root is at level 0, define a function that replaces the values in all nodes with the vector (<level>, <value>).
+If the root is at level 0, define a function that replaces the values in all nodes with the vector ("level", "value").
 
 Test cases:
 
