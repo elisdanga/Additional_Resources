@@ -19,7 +19,7 @@ Test case:
     mirrorTree charBTree -> Node 'k' (Node 'l' (Node 'l' Null Null) (Node 'e' Null Null)) (Node 'a' (Node 's' Null Null) (Node 'h' Null Null))
     
 # Task 3
-Define a function that maps a function to a binary tree.
+Define a function that maps a (one-argument) function to the tree.
 
 Test case:
 
@@ -27,7 +27,7 @@ Test case:
     mapTree charBTree (toUpper) -> Node 'K' (Node 'A' (Node 'H' Null Null) (Node 'S' Null Null)) (Node 'L' (Node 'E' Null Null) (Node 'L' Null Null))
 
 # Task 4
-Define a function that returns True when every node has the following relationship with its grandfather: <childValue> >= <grandPaValue + 1>.
+Define a function that returns True when every node has the following relationship with its grandfather: "childValue" >= "grandPaValue + 1".
 
 Test case:
 
@@ -50,8 +50,8 @@ Test cases:
     highest Blue colourBTree -> 4
 
 # Task 7
-Given a tree made up of whole numbers and represented via an associative list, define a function that returns the number of nodes for which the sum of their children is equal to the node's father.
+Given a tree made up of whole numbers and represented via an associative list, define a function that returns the number of nodes for which the sum of their children is equal to the node's father (reference tree in task7.png).
 
 Test case:
 
-    numOfNodes [(10,[3,7,12]),(3,[5,8,9]),(7,[11,13]),(12,[6,4]),(8,[1,2])] -> 2 (nodes 12 and 8) (reference in task7.png)
+    numOfNodes [(10,[3,7,12]),(3,[5,8,9]),(7,[11,13]),(12,[6,4]),(8,[1,2])] -> 2 (nodes 12 and 8)
