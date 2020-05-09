@@ -14,7 +14,6 @@ numberBTree = Node 5 (Node 12 (Node 1 (Node 96 Nil Nil) Nil) (Node 0 Nil Nil)) (
 charBTree :: BTree Char
 charBTree = Node 'k' (Node 'a' (Node 'h' Nil Nil) (Node 's' Nil Nil)) (Node 'l' (Node 'e' Nil Nil) (Node 'l' Nil Nil))
 
-
 getLevel :: BTree a -> Int -> [a]
 getLevel Nil _ = error "Level can't be negative"
 getLevel (Node value left right) k

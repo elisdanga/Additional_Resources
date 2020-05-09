@@ -67,19 +67,13 @@ Notes:
     sumTree, sumLeaves, average should work only for trees that store numbers in their nodes.
 
 # Task 7
-If the root is at level 0, define the following functions:
-
-    getLevel - accepts a whole number k and returns the nodes at level k;
-    setLevels - replaces the values in all nodes with the vector ([level], [value]).
+If the root is at level 0, define a function that accepts a whole number k and returns the nodes at level k.
 
 Test cases:
 
     getLevel numberBTree 2 -> [1, 0, 2, 5]
     getLevel charBTree 1 -> "al"
     getLevel charBTree 3 -> should not work
-
-    setLevels numberBTree -> Node (0,5) (Node (1,12) (Node (2,1) (Node (3,96) Null Null) Null) (Node (2,0) Null Null)) (Node (1,4) (Node (2,2) Null Null) (Node (2,5) Null (Node (3,21) Null Null)))
-    setLevels charBTree -> Node (0,'k') (Node (1,'a') (Node (2,'h') Null Null) (Node (2,'s') Null Null)) (Node (1,'l') (Node (2,'e') Null Null) (Node (2,'l') Null Null))
 
 # Trees used:
 data BTree a = Null | Node a (BTree a) (BTree a)
