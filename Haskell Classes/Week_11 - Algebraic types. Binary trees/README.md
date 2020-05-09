@@ -81,22 +81,6 @@ Test cases:
     setLevels numberBTree -> Node (0,5) (Node (1,12) (Node (2,1) (Node (3,96) Null Null) Null) (Node (2,0) Null Null)) (Node (1,4) (Node (2,2) Null Null) (Node (2,5) Null (Node (3,21) Null Null)))
     setLevels charBTree -> Node (0,'k') (Node (1,'a') (Node (2,'h') Null Null) (Node (2,'s') Null Null)) (Node (1,'l') (Node (2,'e') Null Null) (Node (2,'l') Null Null))
 
-# Task 8
-Define a function that returns the mirror tree.
-
-Test case:
-
-    mirrorTree numberBTree -> Node 5 (Node 4 (Node 5 (Node 21 Null Null) Null) (Node 2 Null Null)) (Node 12 (Node 0 Null Null) (Node 1 Null (Node 96 Null Null)))
-    mirrorTree charBTree -> Node 'k' (Node 'l' (Node 'l' Null Null) (Node 'e' Null Null)) (Node 'a' (Node 's' Null Null) (Node 'h' Null Null))
-    
-# Task 9
-Define a function that maps a function to a binary tree.
-
-Test case:
-
-    mapTree numberBTree (*2) -> Node 10 (Node 24 (Node 2 (Node 192 Null Null) Null) (Node 0 Null Null)) (Node 8 (Node 4 Null Null) (Node 10 Null (Node 42 Null Null)))
-    mapTree charBTree (toUpper) -> Node 'K' (Node 'A' (Node 'H' Null Null) (Node 'S' Null Null)) (Node 'L' (Node 'E' Null Null) (Node 'L' Null Null))
-
 # Trees used:
 data BTree a = Null | Node a (BTree a) (BTree a)
  deriving (Show)
