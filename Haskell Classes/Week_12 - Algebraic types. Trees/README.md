@@ -35,7 +35,7 @@ Test case:
     grandchildrenIncreased $ Node 5 (Node 12 (Node 6 (Node 96 Nil Nil) Nil) (Node 7 Nil Nil)) (Node 4 (Node 8 Nil Nil) (Node 10 Nil (Node 21 Nil Nil))) -> True
 
 # Task 5
-Modify the data type so that it represent an n-ary tree. Define the tree shown in task5.png, print it and define a function that returns its size.
+Modify the data type so that it represents an n-ary tree. Define the tree shown in task5.png, print it and define a function that returns its size.
 
 # Task 6
 A colour may be either red, green or blue. Create an instance of the tree shown in task6.png. Do the following:
