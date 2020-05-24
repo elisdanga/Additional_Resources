@@ -1,9 +1,9 @@
 # Tasks
 
-# By using the soltions to the tasks from last week, solve tasks 1 and 2.
+# By using the solutions to the tasks from last week, solve tasks 1 and 2.
 
 # Task 1
-One of the main components of The Enigma Machine is a system of rotors. A rotor can be represented with the functions already defined in last week's tasks 4 and 5. The message, then, is passed from rotor to rotor until we reach the final one, the result from which is the final encrypted message. Your task is to write a function that accepts an alphabet, a list of rotors and a message and returns its encrypted eqivalent.
+One of the main components of The Enigma Machine is a system of rotors. A rotor can be represented with the functions already defined in last week's tasks 4 and 5. The message, then, is passed from rotor to rotor until we reach the final one, the result from which is the final encrypted message. Your task is to write a function that accepts an alphabet, a list of rotors and a message and returns its encrypted equivalent.
 
 Test case:
 
