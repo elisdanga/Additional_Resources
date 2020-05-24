@@ -12,7 +12,7 @@ substring :: String -> String -> Bool
 substring [] _ = True
 substring _ [] = False
 substring checkWith@(x:xs) (y:ys)
- | x == y = helper xs ys
+ | x == y = helper xs ys || substring checkWith ys
  | otherwise = substring checkWith ys
   where
       helper :: String -> String -> Bool

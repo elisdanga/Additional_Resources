@@ -37,17 +37,3 @@ Define a function that decrypts the message from task 4.
 Test case:
 
     polydecrypt ['A'..'Z'] 5 1 7 "FYYFHPQUTJUTZUTVYYVDHBBMVIU" -> "ATTACKLONDONTOMORROWATTENAM"
-
-# Task 6
-One of the main components of The Enigma Machine is a system of rotors. A rotor can be represented with the functions already defined in tasks 4 and 5. The message, then, is passed from rotor to rotor until we reach the final one, the result from which is the final encrypted message. Your task is to write a function that accepts an alphabet, a list of rotors and a message and returns its encrypted eqivalent.
-
-Test case:
-
-    enigmaencrypt ['A'..'Z'] [(5,1,1),(7,2,10),(13,3,25)] "ATTACKLONDONTOMORROWATTENAM" -> "ZTUCFOQUULZZGCBEIJHQXRSEOFS" 
-
-# Task 7
-Define a function that decrypts a message produced from task 6.
-
-Test case:
-
-    enigmadecrypt ['A'..'Z'] [(5,1,1),(7,2,10),(13,3,25)] "ZTUCFOQUULZZGCBEIJHQXRSEOFS" -> "ATTACKLONDONTOMORROWATTENAM"
