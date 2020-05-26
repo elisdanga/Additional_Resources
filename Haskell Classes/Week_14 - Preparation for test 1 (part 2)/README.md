@@ -57,12 +57,3 @@ type Record = (Student, Subject, Note)
 Test case:
 
     hardestSubject [("John", "Maths", 5), ("Kennedy", "English", 2), ("Joe", "Programming", 4), ("Claudia", "Programming", 6), ("Sam", "Maths", 4), ("Jenn", "English", 2)] -> "English"
-
-# Task 8
-Write a function that accepts a list of whole numbers and returns the sum of the unique numbers.
-
-Test cases:
-
-    sumUnique [[1,2,3,2],[-4,-4],[5]] -> 9 (= 1+3+5)
-    sumUnique [[2,2,2],[3,3,3],[4,4,4]] -> 0
-    sumUnique [[1,2,3],[4,5,6],[7,8,9]] -> 45
