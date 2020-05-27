@@ -45,15 +45,3 @@ Test cases:
 
     dominates (\x -> x + 1) (\x -> x + 2) [1, 2, 3, 4, 5] -> False
     dominates (\x -> x * 3) (\x -> x + 2) [1, 2, 3, 4, 5] -> True
-
-# Task 7
-By using the following types define a function that accepts a list of records and returns the hardest subject.
-
-type Student = String
-type Subject = String
-type Note = Double
-type Record = (Student, Subject, Note)
-
-Test case:
-
-    hardestSubject [("John", "Maths", 5), ("Kennedy", "English", 2), ("Joe", "Programming", 4), ("Claudia", "Programming", 6), ("Sam", "Maths", 4), ("Jenn", "English", 2)] -> "English"
